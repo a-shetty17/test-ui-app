@@ -1,0 +1,43 @@
+{
+  "Login": [
+    {
+      "tc_id": "TC-101",
+      "name": "Verify login success",
+      "priority": "High"
+    },
+    {
+      "tc_id": "TC-102",
+      "name": "Verify invalid password",
+      "priority": "Medium"
+    }
+  ],
+
+  "Payments": [
+    {
+      "tc_id": "TC-201",
+      "name": "Verify payment success",
+      "priority": "High"
+    },
+    {
+      "tc_id": "TC-202",
+      "name": "Validate card expiry handling",
+      "priority": "High"
+    }
+  ],
+
+  "Cart": [
+    {
+      "tc_id": "TC-301",
+      "name": "Verify add to cart",
+      "priority": "Medium"
+    }
+  ],
+
+  "Search": [
+    {
+      "tc_id": "TC-401",
+      "name": "Verify product search",
+      "priority": "Low"
+    }
+  ]
+}
